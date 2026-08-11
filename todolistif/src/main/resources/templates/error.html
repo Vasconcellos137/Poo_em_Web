@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Deu ruim viado..</h1>
+
+    <p>
+        Erro: <span th:text="${status}"></span>
+    </p>
+
+    <img th:src="@{'https://http.cat/'+${status}+'.jpg'}" alt="Imagem de erro com gatos" width="500" />
+
+    <br>
+    <br>
+    <a href="/">Voltar p página inicial</a>
+
+</body>
+</html>
