@@ -20,19 +20,6 @@
 
     </form>
 
-    <!-- <form method="post" action="/update">
-
-        <input type="hidden" name="id" th:value="${todo.id}" />
-
-        <label>Tarefa:</label>
-        <input type="text" name="title" th:value="${todo.title}" />
-
-        <label>Prazo:</label>
-        <input type="date" name="deadLine" th:value="${todo.deadLine}" />
-
-        <button type="submit">Atualizar</button>
-    </form> -->
-
     <br>
 
     <table>
@@ -50,6 +37,9 @@
                 <td th:text="${todo.title}"></td>
                 <td th:text="${todo.createdAt}"></td>
                 <td th:text="${todo.deadLine}"></td>
+                <td>
+                    <a th:href="@{/deleteByTitle(title=${todo.title})}">Excluir</a>
+                </td>
             </tr>
         </tbody>
 

@@ -47,9 +47,12 @@ public class TodoController {
     // return todoRepository.findAll();
     // }
 
-    @GetMapping("/delet")
-    public String delet(@RequestParam String param) {
-        return new String();
+    @GetMapping("/deleteByTitle")
+    public String deleteByTitle(@RequestParam String title) {
+        Todo todo = todoRepository.findByTitle(title).orElse(null);
+        todoRepository.delete(todo);
+        return "redirect:/";
     }
+    
     
 }
