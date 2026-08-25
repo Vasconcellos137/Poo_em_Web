@@ -44,3 +44,24 @@ Padrão de organização:
 
 - Pode-se utilizar frameworcks de vários tipos diferentes pra um mesmo programa.
 - 
+
+
+# 25.08
+
+## MVC 
+ - Foco nas pág. html, FulLStack 
+ - Conversação entre máquina específica e servidor.
+
+ ## API 
+  - Foco nos dados.
+  - Principal backend, front = ?
+  - XML, JSON 
+  - Conversação com qualquer máquina pra front, qualquer sistema, irrelevante.
+
+  ### Funcionamento: 
+  Controller -> Json
+  Controller <- Json
+
+ *-> <- = dados*
+
+ 
