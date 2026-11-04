@@ -19,6 +19,7 @@ public class Todo {
 
     @Column(nullable = false)
     private LocalDateTime createdAt;// data de criação
+    
     @Column(nullable = false)
     private LocalDateTime deadLine;// prazo para concluir a tarefa
 
