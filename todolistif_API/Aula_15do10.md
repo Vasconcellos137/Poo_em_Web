@@ -13,9 +13,9 @@ Controller _@Controller
 repository
 
 view
-  -html
-  -css
-  -img
+  - html
+  - css
+  - img
 
 Comp - html ---> Request ---> TOMCAT - MySQL ---> Request ---> Comp - html
 
@@ -24,19 +24,19 @@ Comp - html ---> Request ---> TOMCAT - MySQL ---> Request ---> Comp - html
 Cliente (Cell, TV, Comp) --> Request --> BD --> Resp - Json --> Cliente
 
 # Camadas
-  -Controller
-  -Service
-  -DTOs
+  - Controller
+  - Service
+  - DTOs
 
 ---
 
 # Atividade
 ## Questões a serem respondidas - Meu tema é Controller
 
-O q controller MVC devolve ao navegador ?
-O q muda com @RestController ?
-Como receber JSON em POST/api/todos ?
-Quais responsabilidades pertencem ao Service ?
+* O q controller MVC devolve ao navegador ?
+* O q muda com @RestController ?
+* Como receber JSON em POST/api/todos ?
+* Quais responsabilidades pertencem ao Service ?
 
 ---
 
