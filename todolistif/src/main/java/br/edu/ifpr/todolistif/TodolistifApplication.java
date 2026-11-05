@@ -14,7 +14,7 @@ public class TodolistifApplication {
     TodolistifApplication(TodoRepository todoRepository) {
         this.todoRepository = todoRepository;
     }
- 
+
     public static void main(String[] args) {
 		SpringApplication.run(TodolistifApplication.class, args);
 	}

@@ -1,7 +1,7 @@
 # API de tarefas
 
 API REST de tarefas feita com Spring Boot. A aplicação usa MySQL e, por padrão,
-fica disponível em `http://localhost:8050`.
+fica disponível em `http://localhost:8080`.
 
 ## Requisições
 
