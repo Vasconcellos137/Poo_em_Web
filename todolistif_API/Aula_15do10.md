@@ -1,6 +1,6 @@
-15.10.26     POO - Roberta
+# 15.10.26     POO - Roberta
 
-- o que diferencia a aplicação mvc com relação a API é o view -> a maneira como é feita a troca de conteúdos.
+- O que diferencia a aplicação mvc com relação a API é o view -> a maneira como é feita a troca de conteúdos.
 - O recurso utilizado pra fazer essa troca, por exemplo a troca via Json
 
 
