@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.edu.ifpr.todolistif.dto.TodoCompletionRequestDTO;
 import br.edu.ifpr.todolistif.dto.TodoRequestDTO;
 import br.edu.ifpr.todolistif.dto.TodoResponseDTO;
+import br.edu.ifpr.todolistif.model.Todo;
 import br.edu.ifpr.todolistif.service.TodoService;
 
 @RestController
@@ -25,6 +26,12 @@ public class TodoApiController {
 
     public TodoApiController(TodoService service) {
         this.service = service;
+    }
+
+    @PostMapping("/create")
+    public String create(@RequestBody TodoRequestDTO dados) {
+        service.cadastrar(dados);
+        return "redirect:/";
     }
 
     @GetMapping
